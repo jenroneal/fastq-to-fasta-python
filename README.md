@@ -1,14 +1,28 @@
 # FASTQ to FASTA Converter (Python)
 
-Simple Python script to convert sequencing reads from FASTQ format to FASTA.
-The script parses standard four-line FASTQ records and outputs corresponding
-FASTA entries.
+This repository contains a Python-based bioinformatics utility for converting sequencing reads from FASTQ format into FASTA format.
+
+The script demonstrates foundational sequence-processing concepts commonly used in bioinformatics workflows, including parsing FASTQ records and generating FASTA-formatted sequence output for downstream genomic analysis.
 
 ## Input
-- FASTQ file containing sequencing reads
+
+- FASTQ file containing sequencing reads and quality score information
 
 ## Output
-- FASTA file containing read sequences
 
-## How to run
+- FASTA file containing extracted nucleotide sequences
+
+## Tools Used
+
+- Python
+
+## Biological Relevance
+
+FASTQ to FASTA conversion is a common preprocessing step in genomics workflows when sequence quality scores are not required for downstream analysis.
+
+## Usage
+
+Run the script with:
+
+```bash
 python fastq_to_fasta.py
